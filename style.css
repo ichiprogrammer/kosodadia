@@ -1,0 +1,187 @@
+body {
+  font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Black";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.4rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Conatainers */
+.container-flued {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  padding: 0 18px;
+}
+
+.navbar-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+/* Doenload Buttons */
+
+.download-button {
+  margin: 5% 3% 3% 0;
+}
+
+/* Title Section */
+#title .container-flued {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-heading {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* Title Image */
+.title-img{
+  width: 90%;
+  transform: rotate(10deg);
+  position: absolute;
+  left: 10%;
+  border-radius: 1%;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feaature-title {
+  font-size: 1.5rem;
+}
+
+.features-box{
+  margin-bottom: 2rem;
+  padding: 3.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Secton */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+}
+
+.pricing-title {
+  font-size: 1.5rem;
+}
+
+/* Call to Action  */
+
+
+/* footer */
+
+.social-icon {
+  margin: 20px 10px;
+  color: black;
+}
+
+
+@media (max-width: 1028px) {
+
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title{
+    text-align: center;
+  }
+
+ h1 {
+   font-size: 3rem;
+ }
+
+ h2 {
+    font-size: 2rem;
+  }
+
+}
